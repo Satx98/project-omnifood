@@ -369,7 +369,7 @@ header {
     height: 55px;
     width: 55px;
     text-align: center;
-    padding: 5px;
+    padding: 8px 5px;
     float: left;
     font-size: 150%;
     margin-right: 25px;
@@ -522,4 +522,82 @@ input[type="checkbox"] {
 
 *:focus {
     outline: none;
+}
+
+/* FOOTER  ====================================================================== */
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888888;
+    transition: color 0.5s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.pinterest {
+    transition: color 0.5s;
+}
+
+.facebook:hover {
+    color: #1877f2;
+}
+
+.twitter:hover {
+    color: #1da1f2;
+}
+
+.instagram:hover {
+    color: #c32aa3;
+}
+
+.pinterest:hover {
+    color: #bd081c;
+}
+
+footer p {
+    color: #888888;
+    text-align: center;
+    margin-top: 20px;
 }
