@@ -62,13 +62,14 @@
     box-sizing: border-box;
 }
 
-html {
+html, body {
     background-color: #fff;
     color: #555;
     font-family: "Lato", "Arial", sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {
@@ -384,6 +385,10 @@ header {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+.btn-app:last-child img {
+    margin-right: 0;
 }
 
 /* CITIES  ====================================================================== */
