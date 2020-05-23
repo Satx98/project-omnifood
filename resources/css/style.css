@@ -313,6 +313,11 @@ header {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #efefef;
+
+    z-index: 9999; /* so that other elements in the page doesn't get 
+    over this sticky navigation bar to create a bad effect*/
+    /* z-index defines the vertical stacking of elements & the
+    maximum value that can be assigned to z-index is 9999 */
 }
 
 .sticky .main-nav {
