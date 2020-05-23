@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- **********External .js files************ -->
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
@@ -11,6 +11,10 @@
             href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
             rel="stylesheet"
         /> -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+        />
 
         <!-- *********Internal .css files************ -->
         <!-- *********/vendors .css files************ -->
@@ -23,7 +27,11 @@
 
         <!-- *********/resources .css files************ -->
         <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="resources/css/queries.css"
+        />
         <title>Omnifood</title>
     </head>
 
@@ -55,8 +63,12 @@
                     Goodbye junk food. <br />
                     Hello super healthy meals.
                 </h1>
-                <a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry</a>
-                <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
+                <a class="btn btn-full js--scroll-to-plans" href="#"
+                    >I’m hungry</a
+                >
+                <a class="btn btn-ghost js--scroll-to-start" href="#"
+                    >Show me more</a
+                >
             </div>
         </header>
 
@@ -71,7 +83,7 @@
                 </p>
             </div>
 
-            <div class="row">
+            <div class="row js--wp-1">
                 <div class="col span-1-of-4 box">
                     <ion-icon name="infinite-sharp" class="icon-big"></ion-icon>
                     <h3>Up to 365 days/year</h3>
@@ -202,7 +214,7 @@
                     <img
                         src="resources/img/app-iPhone.png"
                         alt="Omnifood app on iPhone"
-                        class="app-screen"
+                        class="app-screen js--wp-2"
                     />
                 </div>
 
@@ -250,7 +262,7 @@
                 <h2>We're currently in these cities</h2>
             </div>
 
-            <div class="row">
+            <div class="row js--wp-3">
                 <!-- ****1-of-4**** -->
                 <div class="col span-1-of-4 box">
                     <img src="resources/img/lisbon-3.jpg" alt="Lisbon" />
@@ -415,7 +427,7 @@
             <div class="row">
                 <!-- ****1-of-3**** -->
                 <div class="col span-1-of-3">
-                    <div class="plan-box">
+                    <div class="plan-box js--wp-4">
                         <div>
                             <h3>Premium</h3>
                             <p class="plan-price">$399 <span>/ month</span></p>
@@ -717,13 +729,12 @@
                 </p>
             </div>
         </footer>
-    
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
         <script src="resources/js/script.js"></script>
-
-    </body>    
+    </body>
 </html>
