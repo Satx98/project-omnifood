@@ -73,4 +73,25 @@ $(document).ready(function () {
     $('.js--wp-4').waypoint(function (direction) {
         $('.js--wp-4').addClass('animate__animated animate__pulse');
     }, { offset: '50%;' });
+
+    // Mobile Navigation
+    $('.js--nav-icon').click(function () {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon ion-icon');        
+        // var icon = $('.js--nav-icon i');        
+
+        nav.slideToggle(200);
+        // if(icon.hasClass('ion-navicon-round')) {
+        //     icon.addClass('ion-close-round');
+        //     icon.removeClass('ion-navicon-round');
+        // } else {
+        //     icon.addClass('ion-navicon-round');
+        //     icon.removeClass('ion-close-round');
+        // }
+        if (icon.is("[name='menu-sharp']")) {
+            icon.attr("name", "close-sharp");
+        } else {
+            icon.attr("name", "menu-sharp");
+        }
+    });
 });
